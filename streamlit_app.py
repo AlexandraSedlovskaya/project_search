@@ -18,8 +18,7 @@ with col1:
 with col2:
     text_input = st.text_input(
         "Enter some text 👇",
-        label_visibility=st.session_state.visibility,
-        disabled=st.session_state.disabled,
+        label_visibility=st.session_state.visibility
         placeholder=st.session_state.placeholder,
     )
 
