@@ -4,7 +4,6 @@ import streamlit as st
 col1, col2 = st.columns(2)
 
 with col1:
-    st.checkbox("Disable text input widget", key="disabled")
     st.radio(
         "Set text input label visibility 👉",
         key="visibility",
