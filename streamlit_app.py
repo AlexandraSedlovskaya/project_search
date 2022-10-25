@@ -1,9 +1,5 @@
 import streamlit as st
 
-# Store the initial value of widgets in session state
-if "visibility" not in st.session_state:
-    st.session_state.visibility = "visible"
-    st.session_state.disabled = False
 
 col1, col2 = st.columns(2)
 
